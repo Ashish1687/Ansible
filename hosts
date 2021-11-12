@@ -1,0 +1,7 @@
+#inventor host 
+ansible_connection=ssh
+ansible_user=root
+
+[web-server]
+web-test-01 ansible_host="IP"
+web-test-02 ansible_host="IP"
